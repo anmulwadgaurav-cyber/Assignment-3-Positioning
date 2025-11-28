@@ -1,0 +1,127 @@
+@font-face{
+    font-family: main;
+    src: url(./font.ttf);
+}
+
+@font-face {
+    font-family: logo;
+    src: url(./font2.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: main;
+}
+
+#main{
+    height: 100%;
+    padding: 40px;
+    background-color: #fafafa;
+    position: relative;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left, #right{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#middle h1{
+    font-family: logo;
+    font-size:larger;
+}
+
+#hero{
+    position: relative;
+}
+
+#img1 img{
+    height: 200px;
+}
+
+#img2 img{
+    height: 300px;
+}
+#img3 img{
+    height: 350px;
+}
+
+#img1{
+    position: absolute;
+    left: 40%;
+    top: 70%;
+}
+#img2{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+}
+#img3{
+    position: absolute;
+    left: 62%;
+    top: 55%;
+}
+
+#hero h1{
+    font-size: 300px;
+    font-weight: bolder;
+}
+
+#info{
+    position: absolute;
+    bottom: 40px;
+}
+
+#info p, #info h3{
+    width: 200px;
+    font-size: 12px;
+    color: #696969;
+}
+
+#info h1{
+    font-size: 28px;
+    font-family: logo;
+}
+
+#material{
+    margin-top: 20px;
+}
+
+#new-coll{
+    margin-top: 50px;
+    font-size: 32px;
+    color: #696969;
+}
+
+#hero-footer{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+#hero-footer h2{
+    text-decoration: underline;
+}
+
+i{
+    font-size: 16px;
+    margin-right: 10px;
+}
